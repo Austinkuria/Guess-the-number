@@ -1,20 +1,22 @@
-*,*::after,*::before{
+*,
+*::after,
+*::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html{
+html {
     font-size: 62.5%;
 }
 
-:root{
-    --color-primary:crimson;
-    --color-white:#eee;
-    --color-black-main:#222;
+:root {
+    --color-primary: crimson;
+    --color-white: #eee;
+    --color-black-main: #222;
 }
 
-body{
+body {
     font-size: 1.4rem;
     font-family: 'Courier New', Courier, monospace;
     color: var(--color-black-main);
@@ -22,7 +24,7 @@ body{
     background-color: var(--color-white);
 }
 
-.game-header{
+.game-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -30,15 +32,17 @@ body{
     border-bottom: 1px solid var(--color-white);
 }
 
-.game-text, .game-alert, .game-tip{
+.game-text,
+.game-alert,
+.game-tip {
     text-transform: uppercase;
-    color:var(--color-primary);
+    color: var(--color-primary);
     font-size: 3rem;
     letter-spacing: 1.5px;
 }
 
-.game-input{
-    margin:3rem 0;
+.game-input {
+    margin: 3rem 0;
     outline: none;
     border: 3px solid var(--color-primary);
     text-align: center;
@@ -52,10 +56,10 @@ body{
 
 }
 
-.game-btn{
+.game-btn {
     border: none;
     outline: none;
-    padding:  2rem 3rem;
+    padding: 2rem 3rem;
     border-radius: 100px;
     text-transform: uppercase;
     font-size: 2rem;
@@ -65,12 +69,11 @@ body{
     font-weight: bold;
 }
 
-.game-body{
+.game-body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     /* border: 3px solid red; */
-    height:85vh;
+    height: 85vh;
 }
-

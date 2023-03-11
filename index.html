@@ -1,35 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Number guessing</title>
-    <link rel="stylesheet" href="/CSS/styles.css">
+    <link rel="stylesheet" href="/CSS/styles.css" />
     <script src="app.js" defer></script>
 </head>
-<body id ="body-styling">
+
+<body id="body-styling">
     <header class="game-header">
-        <h2 class="game-text">
-            Guess a number between 1 and 300            
-        </h2>
-        <button class="game-btn"> New Game</button>
+        <h2 class="game-text">Guess a number between 1 and 300</h2>
+        <button class="game-btn">New Game</button>
     </header>
 
     <div class="game-body">
-         <h2 class="game-alert"> </h2>
-        <input type="number" name="" id="game-input" class="game-input">
-        <h2 class="game-text"> </h2>
+        <h2 class="game-alert"></h2>
+        <input type="number" name="" id="game-input" class="game-input" />
+        <h2 class="game-text"></h2>
         <button class="game-btn">Guess</button>
-         <h6 class="game-tip">Game Tip:You can  also click 'N' on your keyboard to start a new game </h6>
+        <h6 class="game-tip">
+            Game Tip:You can also click 'N' on your keyboard to start a new game
+        </h6>
     </div>
 
     <div class="sounds">
         <audio src="/media/audio/wrong-answer-low.mp3" id="wrong-answer-low-sound"></audio>
-          <audio src="/media/audio/wrong-answer-high.mp3" id="wrong-answer-high-sound"></audio>
-            <audio src="/media/audio/correct-answer.mp3" id="correct-answer-sound"></audio>
+        <audio src="/media/audio/wrong-answer-high.mp3" id="wrong-answer-high-sound"></audio>
+        <audio src="/media/audio/correct-answer.mp3" id="correct-answer-sound"></audio>
     </div>
 
-    <h6 class="game-tip">You can click 'N' on your keyboard to start a new game </h6>
+    <h6 class="game-tip">
+        You can click 'N' on your keyboard to start a new game
+    </h6>
 </body>
+
 </html>
